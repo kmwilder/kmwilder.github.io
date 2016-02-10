@@ -1,0 +1,12 @@
+---
+layout: post
+title: Hello World
+---
+
+h1. {{ page.title }}
+
+First paragraph.
+
+Second paragraph.
+
+Etc.
