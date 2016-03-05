@@ -1,5 +1,5 @@
 body {
-    margin: 60px auto;
+    margin: 10px auto;
     width: 70%;
 }
 nav ul {
@@ -12,6 +12,7 @@ nav ul li {
     display: inline;
     margin-right: 20px;
 }
+/*
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -21,9 +22,10 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+*/
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+/*    font-size: 1.5em; */
 }
 
 ul.posts li {
