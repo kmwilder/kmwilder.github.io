@@ -1,12 +1,20 @@
 ---
 layout: default
-title: blog
+title: Archives
 ---
 
-<h1>Don't expect this list to change much:</h1>
-<ul class="posts">
-
+<h1>&gt  Archives</h1>
+<table class="posts">
 {% for post in site.posts %}
-   <li><span>{{post.date | date_to_string }}</span> -- <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+   <tr>
+       <td><span>{{post.date | date_to_string }}</span></td>
+       <td>-- <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+       <td>--
+           {% for tag in post.tags %}
+           <a class="tag">{{tag}}</a>
+           {% endfor %}
+       </td>
+   </tr>
+
 {% endfor %}
-</ul>
+</table>

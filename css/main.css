@@ -1,9 +1,11 @@
 body {
+    background-color: #EEEEEE;
     margin: 10px auto;
-    width: 70%;
+    width: 85%;
+    line-height: 1.4;
 }
 nav ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "Courier New", Courier, monospace;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -12,20 +14,31 @@ nav ul li {
     display: inline;
     margin-right: 20px;
 }
-/*
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 2em;
+    font-family: "Courier New", Courier, monospace;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+
+.post {
+    width: 95%;
+    margin: 5px auto;
 }
-*/
-ul.posts { 
-    margin: 20px auto 40px; 
-/*    font-size: 1.5em; */
+
+.pagination {
+    font-family: "Courier New", Courier, monospace;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+.tags {
+    font-family: "Courier New", Courier, monospace;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
 }
 
 ul.posts li {

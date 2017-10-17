@@ -1,4 +1,6 @@
-name: a worthless blog
+name: wilder.fail
 permalink: /blog/:year/:month/:day/:title
-gems:
+paginate: 2
+plugins:
   - jekyll-sitemap
+  - jekyll-paginate

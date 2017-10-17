@@ -2,6 +2,7 @@
 layout: post
 title: Initial Progress
 date: 2017-05-14
+tags: [PROJECT_1]
 ---
 
 I'm happy to report some surprising levels of progress over the past month or

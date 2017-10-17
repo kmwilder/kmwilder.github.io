@@ -2,6 +2,7 @@
 layout: post
 title: First Post
 date: 2016-03-05
+tags: [META]
 ---
 
 So, uh. Here's a blog.

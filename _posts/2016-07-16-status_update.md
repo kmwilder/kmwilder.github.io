@@ -2,6 +2,7 @@
 layout: post
 title: Status Update
 date: 2016-07-16
+tags: [META]
 ---
 
 Completed tasks, March 2016:
