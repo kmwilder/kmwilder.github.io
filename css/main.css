@@ -19,6 +19,11 @@ h1 {
     font-family: "Courier New", Courier, monospace;
 }
 
+h2 {
+    font-size: 1.5em;
+    font-family: "Courier New", Courier, monospace;
+}
+
 .post {
     width: 95%;
     margin: 5px auto;
@@ -43,4 +48,31 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+th, td { border: 1px solid black; padding: 8px; }
+th { background-color: #00FF00 }
+tr:nth-child(odd) { background-color: #f0f0f0 }
+tr:nth-child(even) { background-color: #FFFFFF }
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.image-caption {
+    text-align: center;
+    display: block;
 }
