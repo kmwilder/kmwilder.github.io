@@ -50,7 +50,7 @@ ul.posts li {
     list-style: none;
 }
 
-table {
+table.striped {
     border-collapse: collapse;
     margin: 0 auto;
     margin-left: auto;
@@ -58,10 +58,10 @@ table {
     text-align: center;
     border: 1px solid black;
 }
-th, td { border: 1px solid black; padding: 8px; }
-th { background-color: #00FF00 }
-tr:nth-child(odd) { background-color: #f0f0f0 }
-tr:nth-child(even) { background-color: #FFFFFF }
+table.striped th, table.striped td { border: 1px solid black; padding: 8px; }
+table.striped th { background-color: #00FF00 }
+table.striped tr:nth-child(odd) { background-color: #f0f0f0 }
+table.striped tr:nth-child(even) { background-color: #FFFFFF }
 
 img {
     padding: 0;
