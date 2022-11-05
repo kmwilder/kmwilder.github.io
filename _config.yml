@@ -1,4 +1,4 @@
-name: wilder.fail
+name: wilder
 permalink: /blog/:year/:month/:day/:title
 paginate: 2
 plugins:
